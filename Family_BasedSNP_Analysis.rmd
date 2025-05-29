@@ -1,0 +1,28 @@
+---
+title: "Family based SNP Data Analysis"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## 🔧 Tools & Methods Included
+
+- **PC-AiR**: Principal components analysis accounting for relatedness
+- **PC-Relate**: Kinship coefficient estimation using genotype data
+- **Kinship2 & Pedigree Tools**: Visualizing and parsing family structures
+- **PLINK support**: For SNP QC, filtering, and conversion
+- **Pedigree-aware SNP filtering and stratified analysis**
+
+## 🧬 Use Case
+
+This pipeline is designed for genetic studies involving extended families or related individuals, enabling accurate adjustment for relatedness and population structure in genome-wide association studies (GWAS).
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/muhammadshirzad/Family-Based-SNP-Analysis.git
+   cd Family-Based-SNP-Analysis
